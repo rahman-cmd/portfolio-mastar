@@ -26,20 +26,29 @@ h2{
 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .link-btn{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
-    color: wheat;
-    font-size: 400;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
     border-radius: 5px;
+    
 
 }
 
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.drem-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: right;
 }
 
